@@ -63,7 +63,7 @@ df.to_csv(output_path, sep="\t", index=False)
 print(f"[OK] Saved: {output_path}")
 
 # 데이터 병합
-base_path = "./Datasource/"
+base_path = "/home/ubuntu/Datasource/"
 new_file = base_path + "Metric.tsv"
 existing_file = base_path + "Prometheus_data_set.tsv"
 
